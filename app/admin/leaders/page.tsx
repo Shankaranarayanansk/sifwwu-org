@@ -7,7 +7,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
-import { Plus, Edit, Trash2, User, Upload } from 'lucide-react';
+import { Plus, FileEdit as Edit, Trash2, User, Upload } from 'lucide-react';
 import { toast } from 'react-hot-toast';
 
 interface Leader {
