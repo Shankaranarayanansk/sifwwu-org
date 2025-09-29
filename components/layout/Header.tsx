@@ -35,6 +35,14 @@ export default function Header() {
                 <span>southindianfilmtrust@gmail.com</span>
               </div>
             </div>
+            <div>
+              <Link
+                href="/admin/login"
+                className="text-sm text-white hover:text-yellow-400 transition-colors"
+              >
+                Admin Login
+              </Link>
+            </div>
           </div>
         </div>
       </div>
@@ -100,6 +108,13 @@ export default function Header() {
                 {item.name}
               </Link>
             ))}
+            <Link
+              href="/admin/login"
+              className="block px-3 py-2 text-base font-medium text-blue-900 hover:bg-gray-50 rounded-md border-t mt-2 pt-4"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Admin Login
+            </Link>
           </div>
         </div>
       )}
